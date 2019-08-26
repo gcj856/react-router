@@ -1,0 +1,19 @@
+@heightH:62px;
+.header{
+  background: #fff;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+  .button{
+    height:@heightH;
+    line-height: @heightH;
+    transition: color .3s,background-color .3s;
+    cursor: pointer;
+
+    &:hover{
+      color: #1890ff;
+      background-color: #f9f9fc;
+    }
+  }
+}
